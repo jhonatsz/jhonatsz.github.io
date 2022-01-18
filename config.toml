@@ -1,7 +1,7 @@
 baseURL = 'https://jhonatsz.github.io'
 languageCode = 'en-us'
 title = 'Home'
-theme = 'ananke'
+theme = 'hugo-theme-shell'
 ##author = "Jhonathan H"
 ## prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 ## See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
