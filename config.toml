@@ -76,7 +76,18 @@ ignoreErrors = ["error-remote-getjson"]
 
   [Params.Tree]
   use = true
-  folderName = "my_activity"
+  folderName = "my_work"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["Founder @Giolosts Technologies", "#"],
+    ["Founder @Aqritech", "#"],
+    ["Head of DevOps Engineering @Cybersoftbpo", "#"],
+    ["DevOps Engineer @TechStyleOS", "#"],
+  ]
+
+  [Params.Tree]
+  use = true
+  folderName = "my_favorites"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
     ["C/C++", "https://www.example.com/"],
