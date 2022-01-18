@@ -85,17 +85,17 @@ ignoreErrors = ["error-remote-getjson"]
     ["DevOps Engineer @TechStyleOS", "#"],
   ]
 
-  [Params.Tree]
-  use = true
-  folderName = "my_favorites"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["C/C++", "https://www.example.com/"],
-    ["Python", "https://www.example.com/"],
-    ["Go", "https://golang.org/"],
-    ["Hugo", "/post/some-activity.md"],
-    ["Docker", "/post/some-activity.md"],
-  ]
+#  [Params.Tree]
+#  use = true
+#  folderName = "my_favorites"
+#  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+#  files = [ 
+#    ["C/C++", "https://www.example.com/"],
+#    ["Python", "https://www.example.com/"],
+#    ["Go", "https://golang.org/"],
+#    ["Hugo", "/post/some-activity.md"],
+#    ["Docker", "/post/some-activity.md"],
+#  ]
 
 [module]
   [module.hugoVersion]
