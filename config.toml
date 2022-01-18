@@ -65,8 +65,10 @@ ignoreErrors = ["error-remote-getjson"]
   # activityDelay = 5 : deprecated
 
   description = """
+
   Hi I am Jhonathan Howard!
   Technologist, hacker, open-source enthusiast.
+
   Nice to meet you!
   
   """
