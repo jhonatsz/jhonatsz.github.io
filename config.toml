@@ -89,4 +89,4 @@ ignoreErrors = ["error-remote-getjson"]
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.92.0"
+    min = "0.85.0"
