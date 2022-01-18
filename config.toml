@@ -74,28 +74,28 @@ ignoreErrors = ["error-remote-getjson"]
   # description = "/description.md"
   # Note: and put the description.md in /content/description.md
 
-  [Params.Tree]
-  use = true
-  folderName = "my_work"
-  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
-  files = [ 
-    ["Founder @Giolosts Technologies", "#"],
-    ["Founder @Aqritech", "#"],
-    ["Head of DevOps Engineering @Cybersoftbpo", "#"],
-    ["DevOps Engineer @TechStyleOS", "#"],
-  ]
-
 #  [Params.Tree]
 #  use = true
-#  folderName = "my_favorites"
+#  folderName = "my_work"
 #  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
 #  files = [ 
-#    ["C/C++", "https://www.example.com/"],
-#    ["Python", "https://www.example.com/"],
-#    ["Go", "https://golang.org/"],
-#    ["Hugo", "/post/some-activity.md"],
-#    ["Docker", "/post/some-activity.md"],
+#    ["Founder @Giolosts", "#"],
+#    ["Founder @Aqritech", "#"],
+#    ["DevOps  @Cybersoftbpo", "#"],
+#    ["DevOps  @TechStyleOS", "#"],
 #  ]
+
+  [Params.Tree]
+  use = true
+  folderName = "my_activity"
+  # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
+  files = [ 
+    ["C/C++", "#"],
+    ["Python", "#"],
+    ["Go", "#"],
+    ["Hugo", "#"],
+    ["Docker", "#"],
+  ]
 
 [module]
   [module.hugoVersion]
